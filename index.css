@@ -1,6 +1,7 @@
 body{
 	background-color: #0d1a00;
-	font-family: 'Noto Sans', sans-serif;
+	/* font-family: 'Noto Sans', sans-serif; */
+	font-family: 'Ubuntu', sans-serif;
 	color: whitesmoke;
 }
 
@@ -90,6 +91,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
+	text-align: center;
 }
 
 .para{
@@ -118,7 +120,103 @@ img {
 	width: 70px;
 }
 
+.logos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 a{
 	text-decoration: none;
 	color: inherit;
+}
+
+.designation{
+
+}
+
+@media screen and (max-width: 700px) {
+	.photosec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4%;
+	flex-direction: column;
+}
+
+.phototext{
+	margin-top: 10%;
+	width: 100%;
+	}
+
+.designation{
+	margin-top: 0%;
+	font-size: 15px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.naam{
+	margin-bottom: 0%;
+}
+
+.para{
+	margin-top: ;
+}
+
+.name{
+	display: none;
+}
+
+.menu{
+	display: none;
+}
+
+.nav{
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+a{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.para{
+	width: 100%;
+	margin: 0px;
+	padding:  0px;
+}
+
+.companies{
+	flex-direction: column;
+}
+
+.codestack{
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+}
+
+.technologies{
+	margin-top: 10%;
+}
+
+.logos{
+	justify-content: center;
+	align-items: center;
+}
+
+.dp{
+	margin-top: 10%;
+	height: 250px;
+	width: 250px;
+}
+
+.naam{
+	margin-bottom: 2%;
+}
+
 }
